@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+        background: url("Microphone.png") right top repeat-y,
+        url("Microphone.png") left top repeat-y;
+        background-color: black;
+        background-size: 100px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    margin-top: -8px;
+    border-bottom: black 5px dashed;
+    border-left: black 5px dashed;
+    border-right: black 5px dashed;
+    justify-content: center;
+}
+
+img.aczino {
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+section {
+    background: url("bandera.png");
+    background-color: rgb(236, 236, 236);
+    background-size: 50%;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black 5px dashed;
+    padding-bottom: 10px;
+    
+}
+
+article {
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: white 5px outset;
+    border-radius: 20px;
+    color: white;
+}
+
+h2 {
+    background-color: white;
+    border: black 3px solid; 
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
